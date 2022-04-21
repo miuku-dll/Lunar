@@ -8,4 +8,4 @@ local Project = rbxmSuite.launch(rbxmSuite.download("xSute/Lunar@latest", "Lunar
     debug = Config.Debug or true
 }) 
 
-rbxmSuite.require(Project.InitUI)(Config.Toggle or Enum.KeyCode.BackSlash)
+rbxmSuite.require(Project.InitUI)(Config.Toggle or Enum.KeyCode.Semicolon)
